@@ -5,5 +5,8 @@ github_repo: helix-editor/helix
 artifact_format: tar.xz
 description: "A post-modern modal text editor."
 license: MPL-2.0
+# helix ships hx binary + runtime/ directory (246 ELF .so libs) at top-level,
+# needs bundle to preserve runtime alongside the binary
+bundle: true
 
 # Build for all Debian suites and all supported architectures.

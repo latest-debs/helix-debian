@@ -1,0 +1,27 @@
+{
+  "package": "helix",
+  "upstream_repo": "helix-editor/helix",
+  "version": "25.07.1",
+  "tag": "25.07.1",
+  "published_at": "2025-07-18T15:13:19Z",
+  "license": "MPL-2.0",
+  "asset": "helix-25.07.1-aarch64-linux.tar.xz",
+  "asset_size": 15607936,
+  "sha256": "ce23fa8d395e633e3e54c052012f11965d91d8d5c2bfa659685f50430b4f8175",
+  "expected_sha256": "",
+  "checksum_source": "",
+  "checksum_verified": false,
+  "assets": {
+    "helix-25.07.1-aarch64-linux.tar.xz": {
+      "sha256": "ce23fa8d395e633e3e54c052012f11965d91d8d5c2bfa659685f50430b4f8175",
+      "size": 15607936
+    },
+    "helix-25.07.1-x86_64-linux.tar.xz": {
+      "sha256": "3f08e63ecd388fff657ad39722f88bb03dcf326f1f2da2700d99e1dc40ab2e8b",
+      "size": 16636076
+    }
+  },
+  "asset_count": 2,
+  "vetted_at": "2026-08-26T05:19:23Z",
+  "vetted_by": ""
+}

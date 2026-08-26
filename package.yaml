@@ -1,0 +1,9 @@
+# Package definition for helix
+
+package_name: helix
+github_repo: helix-editor/helix
+artifact_format: tar.xz
+description: "A post-modern modal text editor."
+license: MPL-2.0
+
+# Build for all Debian suites and all supported architectures.

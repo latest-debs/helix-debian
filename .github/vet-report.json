@@ -1,0 +1,47 @@
+{
+  "gate": "fail",
+  "license": {
+    "declared": "MPL-2.0",
+    "detected": [
+      "0BSD",
+      "MIT"
+    ],
+    "license_files": [
+      "//tmp/tmp.L4Tk6bYR5R/x/helix-25.07.1-aarch64-linux/LICENSE",
+      "//tmp/tmp.L4Tk6bYR5R/x/helix-25.07.1-aarch64-linux/runtime/queries/snakemake/LICENSE"
+    ],
+    "matches": false,
+    "status": "fail",
+    "detail": "declared MPL-2.0 but detected 0BSD\nMIT"
+  },
+  "asset": {
+    "format": "tar.xz",
+    "size": 15607936,
+    "valid": true,
+    "is_html": false,
+    "binary": "djot.so",
+    "elf_arch": "ARM aarch64",
+    "status": "pass",
+    "detail": "valid tar.xz archive containing 246 ELF executable(s); first: djot.so (ARM aarch64); release covers: amd64 arm64 "
+  },
+  "architectures": {
+    "covered": [
+      "amd64",
+      "arm64"
+    ],
+    "missing": [
+      "armel",
+      "armhf",
+      "i386",
+      "ppc64el",
+      "s390x",
+      "riscv64",
+      "loong64"
+    ],
+    "assets": {
+      "amd64": "helix-25.07.1-x86_64-linux.tar.xz",
+      "arm64": "helix-25.07.1-aarch64-linux.tar.xz"
+    }
+  },
+  "vetted_at": "2026-08-26T05:19:45Z"
+}
